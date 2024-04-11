@@ -1,6 +1,16 @@
 ﻿# 算子信息收集
 
+[![issue](https://img.shields.io/github/issues/InfiniTensor/operator-design-collection)](https://github.com/InfiniTensor/operator-design-collection/issues)
+[![issue](https://img.shields.io/github/issues-pr/Infinitensor/operator-design-collection
+)](https://github.com/InfiniTensor/operator-design-collection/pulls)
+
 这个仓库用于收集和整理对不同框架和库中算子定义的调研。算子信息采用带有特定结构的 Markdown 文件存储，以方便自动化处理。
+
+## 目录
+
+- [格式定义](#格式定义)
+- [贡献指南](#贡献指南)
+- [算子列表](#算子列表)
 
 ## 格式定义
 
@@ -50,7 +60,7 @@
 
 ## 贡献指南
 
-- 贡献者建议先通过 issue 说明将调研哪些算子的哪些接口，然后应通过 Pull Request 提交文档，并在 PR 合并时自动关闭 issue；
+- 建议贡献者先使用 [Issue](https://github.com/InfiniTensor/operator-design-collection/issues) 说明将调研哪些算子的哪些接口，然后应使用 [Pull Request](https://github.com/InfiniTensor/operator-design-collection/pulls) 提交文档，并在 PR 合并时自动关闭 issue；
 - commit message 应以 **"update: "** 开头，并说明更新的内容，例如：
 
   ```Markdown
