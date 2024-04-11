@@ -1,0 +1,5 @@
+﻿blank_issues_enabled: true
+contact_links:
+  - name: 扩充算子列表
+    url: https://github.com/InfiniTensor/operator-design-collection/compare
+    about: 直接提交一个修改算子列表的 PR
